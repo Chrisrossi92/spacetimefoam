@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; background: #f9f9f9; color: #333; }
+header { text-align: center; background: #007bff; color: white; padding: 20px; }
+section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; background: white; }
+h2 { color: #007bff; }
+#graph { border: 1px solid #ccc; display: block; margin: 10px auto; }
+footer { text-align: center; font-size: 0.8em; margin-top: 20px; }
+a { color: #007bff; text-decoration: none; }
+a:hover { text-decoration: underline; }
