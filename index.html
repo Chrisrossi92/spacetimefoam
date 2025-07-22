@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spacetime Foam Dispersion Hypothesis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Spacetime Foam Dispersion Hypothesis</h1>
+        <p>Solving the Hubble Tension with Quantum Foam – A New Idea in Cosmology</p>
+    </header>
+    <section id="explanation">
+        <h2>What is This Theory?</h2>
+        <p>Imagine the fabric of space isn't smooth—it's bubbly like foam at tiny scales due to quantum effects. This "spacetime foam" could subtly distort light from the distant universe, making the expansion rate (Hubble constant) look different when measured far away vs. nearby. This explains the 8-10% mismatch scientists see without needing new physics.</p>
+        <p>Backed by quantum gravity ideas from John Wheeler and data from telescopes like Hubble and Planck. It's testable with upcoming missions like JWST.</p>
+        <ul>
+            <li><strong>Early Universe (CMB):</strong> Light travels farther, more foam distortion → Lower H0 (~67 km/s/Mpc).</li>
+            <li><strong>Nearby (Supernovae):</strong> Less distortion → Higher H0 (~73 km/s/Mpc).</li>
+        </ul>
+        <p>References: Wheeler (1955) on foam; Planck (2018) and SH0ES (2024) data.</p>
+    </section>
+    <section id="simulator">
+        <h2>Interactive Simulator: Play with the Foam</h2>
+        <p>Adjust the foam density to see how it affects Hubble measurements. This metric updates in real-time—share your results!</p>
+        <label for="foam-slider">Foam Density (0-1):</label>
+        <input type="range" id="foam-slider" min="0" max="1" step="0.01" value="0.05">
+        <p>Simulated H0 (Early Universe): <span id="h0-early">67</span> km/s/Mpc</p>
+        <p>Simulated H0 (Local): <span id="h0-late">73</span> km/s/Mpc</p>
+        <canvas id="graph" width="400" height="200"></canvas>
+    </section>
+    <section id="dashboard">
+        <h2>Hubble Tension Tracker</h2>
+        <p>Latest measurements (as of July 2025):</p>
+        <ul>
+            <li>CMB (Planck): 67.4 km/s/Mpc</li>
+            <li>Local (SH0ES/JWST): 73.0 km/s/Mpc</li>
+            <li>Tension: ~8%</li>
+        </ul>
+        <p>Check back for updates from new papers/telescopes. If the gap narrows with distant data, it supports the theory!</p>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Questions, comments, or evidence? Reach out anonymously: <a href="mailto:creatorfuelai@gmail.com">creatorfuelai@gmail.com</a></p>
+    </section>
+    <footer>
+        <p>© 2025 Anonymous Creator. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
